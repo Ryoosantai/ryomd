@@ -543,7 +543,7 @@ async function startBot() {
 
         for (const msg of messages) {
             try {
-                if (!msg?.message || msg.key?.fromMe) continue;
+                if (!msg?.message ) continue;
 
                 const from = msg.key.remoteJid;
                 if (!from || from === 'status@broadcast') continue;
