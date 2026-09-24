@@ -1,0 +1,9 @@
+node_modules/
+auth/
+tmp/
+.env
+*.log
+personas.json
+users.json
+*.session
+*.json.bak
